@@ -3283,7 +3283,7 @@ input, select, textarea {
 
 /* Intro */
 
-	#intro {
+	#intro, #bio {
 		color: #ffffff;
 		padding: 8rem 4rem 6rem 4rem ;
 		-moz-align-items: center;
