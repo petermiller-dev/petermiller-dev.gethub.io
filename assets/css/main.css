@@ -24,8 +24,22 @@
   
   .image-title {
 	margin-top: 10px;
+	font-size: 0.6em;
+	align-content: center;
+	margin-top: 0;
+
+
+	margin: 0;
   }
 
+  .col-3{
+		text-align: center;
+        justify-content: space-between;
+        display: flex;
+        flex-direction: column;
+		align-content: center;
+
+  }
 
 /* 
 .image-title {
@@ -246,6 +260,8 @@ input, select, textarea {
 	h3 {
 		font-size: 1.25rem;
 		margin: 0 0 1.5rem 0;
+		text-align: center;
+		margin-top: 90px;
 	}
 
 	h4 {
@@ -1153,7 +1169,8 @@ input, select, textarea {
 				}
 
 				.row > .col-3-medium {
-					width: 25%;
+					margin-left: 25%;
+
 				}
 
 				.row > .off-3-medium {
