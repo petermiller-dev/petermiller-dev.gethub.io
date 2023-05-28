@@ -7,6 +7,12 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+body { 
+	max-width: 1580px; 
+	margin: 0 auto !important; 
+	float: none !important; 
+}
+
 .skills{
 	display: flex;
     justify-content: center;
@@ -2699,6 +2705,9 @@ input, select, textarea {
 			.image.main img {
 				width: 100%;
 			}
+			.image.main2 {
+				width: 40%;
+			}
 
 		@media screen and (max-width: 736px) {
 
@@ -2707,6 +2716,9 @@ input, select, textarea {
 			}
 
 			.image.main {
+				margin: 2rem 0;
+			}
+			.image.main2 {
 				margin: 2rem 0;
 			}
 
