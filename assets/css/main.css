@@ -3379,6 +3379,10 @@ input, select, textarea {
 		min-height: 100vh;
 	}
 
+
+		#bio input, #bio select, #bio textarea {
+			color: #ffffff;
+		}
 		#intro input, #intro select, #intro textarea {
 			color: #ffffff;
 		}
@@ -3412,6 +3416,16 @@ input, select, textarea {
 
 		#intro hr {
 			border-bottom-color: #ffffff;
+		}
+		
+		#bio input[type="submit"],
+		#bio input[type="reset"],
+		#bio input[type="button"],
+		#bio button,
+		#bio .button {
+			background-color: transparent;
+			box-shadow: inset 0 0 0 2px #ffffff;
+			color: #ffffff !important;
 		}
 
 		#intro input[type="submit"],
